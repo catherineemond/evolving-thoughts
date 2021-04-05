@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "personal-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A place to jot down thoughts on topics I find interesting",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Catherine Emond",
   "dependencies": {
     "gatsby": "^3.2.1",
+    "gatsby-plugin-catch-links": "^3.2.0",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
     "gatsby-plugin-image": "^1.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
@@ -13,6 +14,7 @@
     "gatsby-plugin-react-helmet": "^4.2.0",
     "gatsby-plugin-sharp": "^3.2.0",
     "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -22,9 +24,6 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -34,12 +33,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
